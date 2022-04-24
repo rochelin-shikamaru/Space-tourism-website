@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import'./Base/reset';
+
+@import'./Utils/variables';
+@import'./Utils/mixins';
+
+@import'./Layout/header';
+
+@import'./Page/home';
+@import'./Page/destination';
+@import'./Page/crew';
+@import'./Page/technology';
+
+@import'./Component/mediaQuerie';
