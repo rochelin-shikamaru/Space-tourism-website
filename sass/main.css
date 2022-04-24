@@ -9,6 +9,10 @@
   list-style: none;
 }
 
+body {
+  min-height: 100vh;
+}
+
 header {
   position: relative;
   margin: 40px 0 0 auto;
