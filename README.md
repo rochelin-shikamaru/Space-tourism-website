@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/rochelin-shikamaru/Space-tourism-website](https://your-solution-url.com)
+- Live Site URL: [https://space-tourism-info.netlify.app/](https://your-live-site-url.com)
 
 ## My process
 
@@ -49,6 +49,6 @@ I've learned responsive, I've learned how to sturcture its code with sass
 
 ## Author
 
-- Website - [rochelin shikamaru](https://www.your-site.com)
+- Website - [https://space-tourism-info.netlify.app](https://www.your-site.com)
 - Frontend Mentor - [@rochelin-shikamaru](https://www.frontendmentor.io/profile/rochelin-shikamaru)
 
