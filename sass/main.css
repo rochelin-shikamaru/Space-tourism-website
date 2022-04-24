@@ -9,10 +9,6 @@
   list-style: none;
 }
 
-body {
-  min-height: 100vh;
-}
-
 header {
   position: relative;
   margin: 40px 0 0 auto;
@@ -138,7 +134,8 @@ nav a:hover::after {
     bottom: 0;
     right: 0;
     top: 0;
-    height: 100vh;
+    width: 0;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -146,12 +143,8 @@ nav a:hover::after {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
-    -webkit-transition: -webkit-transform 0.4s ease-in-out;
-    transition: -webkit-transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
   }
   header nav a:nth-child(n) {
     opacity: 0;
@@ -160,19 +153,16 @@ nav a:hover::after {
     height: auto;
   }
   header .second {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    -webkit-transition: -webkit-transform 0.4s ease-in-out;
-    transition: -webkit-transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out;
-    transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    width: 60%;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    z-index: 1000;
+    z-index: 10000;
     padding: 150px 0 0 30px;
   }
   header .second a:nth-child(n) {
