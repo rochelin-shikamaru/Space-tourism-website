@@ -88,20 +88,18 @@ nav a:hover::after{
     }
     header nav{
         position: absolute;
-        bottom: 0;
-        right: 0;
         top: 0;
+        right: 0;
+        bottom: 0;
         width: 0;
-        min-height: 100vh;
         display: flex;
         flex-direction: column;
         transition: $transition;
         & a:nth-child(n){
-            opacity: 0;
-        }
-        a{
             height: auto;
+            display: none;
         }
+        
     }
 
     header .second{
@@ -113,7 +111,7 @@ nav a:hover::after{
         padding: 150px 0 0 30px;
 
         & a:nth-child(n){
-            opacity: 1;
+            display: block;
             margin: 15px 0;
 
             span{

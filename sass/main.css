@@ -131,11 +131,10 @@ nav a:hover::after {
   }
   header nav {
     position: absolute;
-    bottom: 0;
-    right: 0;
     top: 0;
+    right: 0;
+    bottom: 0;
     width: 0;
-    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -147,10 +146,8 @@ nav a:hover::after {
     transition: width 0.4s;
   }
   header nav a:nth-child(n) {
-    opacity: 0;
-  }
-  header nav a {
     height: auto;
+    display: none;
   }
   header .second {
     width: 60%;
@@ -166,7 +163,7 @@ nav a:hover::after {
     padding: 150px 0 0 30px;
   }
   header .second a:nth-child(n) {
-    opacity: 1;
+    display: block;
     margin: 15px 0;
   }
   header .second a:nth-child(n) span {
